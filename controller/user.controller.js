@@ -2,7 +2,7 @@ let dbConnection = require("./../config/db.config");
 let db = require("./../model/index")
 let user = db.user;
 let cart = db.cart;
-let bcryptjs = require("bcryptjs")
+let bcrypt = require("bcryptjs")
 let authsecret = require("./../config/auth.config")
 let jsonwebtoken = require("jsonwebtoken")
 

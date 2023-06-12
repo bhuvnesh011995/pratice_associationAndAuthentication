@@ -10,7 +10,7 @@ app.use(router)
 
 console.log(serverConfig.PORT)
 
-// dbInstance.sync({force:true});
+// dbInstance.sync({for ce:true});
 
 app.listen(serverConfig.PORT,()=>{
     console.log(`server started at port ${serverConfig.PORT}`)
